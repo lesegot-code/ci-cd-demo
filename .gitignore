@@ -42,6 +42,8 @@
 build/
 Build/
 build-*/
+cmake-build-*/
+.DS_Store
 
 # CMake generated files
 CMakeFiles/
