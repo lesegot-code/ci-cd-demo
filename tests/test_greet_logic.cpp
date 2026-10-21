@@ -8,6 +8,6 @@ TEST(GreetLogicTest, EmptyNameProducesEmptyString) {
 
 TEST(GreetLogicTest, NameCanBeStoredAndRetrieved) {
     std::string name = "Alice";
-    EXPECT_EQ(name, "Bob");
+    EXPECT_EQ(name, "Alice");
     EXPECT_EQ(name.length(), 5u);
 }
